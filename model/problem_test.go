@@ -83,7 +83,7 @@ func TestInfeasibility(t *testing.T) {
 		t.Fatalf("Got error getting infeasability: %v", err)
 	}
 	expectedInfeas := []float64{-584, -620, -645}
-	if !reflect.DeepEqaul(expectedInfeas, infeas) {
+	if !reflect.DeepEqual(expectedInfeas, infeas) {
 		t.Fatalf("Got infeasibility %v, expected %v", infeas, expectedInfeas)
 	}
 	prob.Free()
