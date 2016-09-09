@@ -1,9 +1,6 @@
 package model
 
 /*
-#cgo CFLAGS: -IC:/Cplex/cplex/include
-#cgo LDFLAGS: -lcplex1263 -LC:/Cplex/cplex/lib/x64_windows_vs2013/stat_mda
-
 #define _LP64
 #include <ilcplex/cplex.h>
 
